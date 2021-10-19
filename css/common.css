@@ -1,1 +1,37 @@
 
+.img1{
+  width: 120px
+}
+/*
+    HEADER
+*/
+/*Menu horizontal*/
+nav {
+  position: fixed;
+  width: 100%;
+  background: #101010;
+  color: white;
+  text-align: center;
+}
+nav .logo {
+  float: left;
+  font-size: 18px;
+	padding-top: 20px;
+  padding-left: 20px;
+}
+nav ul {
+  float: right;
+  position: relative;
+}
+nav ul li {
+  display: inline-block;
+  background: #101010;
+  float: left;
+	margin: 2px;
+}
+nav ul li a {
+  color: white;
+  line-height: 70px;
+  font-size: 14px;
+	padding: 8px;
+}
