@@ -4,7 +4,17 @@
 .img2{
   width: 70%;
 }
-.center{
+.uno{
   padding-top: 20px;
   text-align: center;
+}
+.dos{
+  padding: 20px 0px 20px 20px;
+  display: flex;
+}
+.dos div{
+  padding-right: 20px;
+}
+.dos div img{
+  padding-bottom: 20px;
 }
